@@ -24,14 +24,15 @@
         * gulp-util - allows us to manage environment variables.
         * del - deletes all the files that are passed as arguments into the command.
         * jshint - analyzes code and warns about parts that don't follow stylistic conventions, or could cause bugs in the future.
-        * sass - method translates our files into normal CSS sourcemaps
-        * bower-files
+        * sass - translates our files into normal CSS .
+        * sourcemaps - adds some code which allows us to see which Sass files are responsible for each CSS rule that we see in the browser.
+        * bower-files - installs the necessary files on which our front-end package manager depends.
 
     * Bower Packages
       * The following were implemented in our Production Environment
-        * jquery
-        * bootstrap
-        * moment.js
+        * jquery - simplifies HTML document traversing, event handling, animating, and Ajax interactions.
+        * bootstrap - provides us with some rudimentary page styling tools.
+        * moment.js - allows us to implement time and date related data.
 
   * It could include a short description of what each does for you
 
