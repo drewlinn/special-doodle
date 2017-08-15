@@ -37,31 +37,24 @@
   * It could include a short description of what each does for you
 
 2. Specifications
+
 | Behavior | Input | Output |
-| :--------| :---- | :------|
+| :------- | :---- | :----- |
+| User can enter the name of a metal band and receive some info about that band | "Black Sabbath" | "Black Sabbath", "Classic Metal", "United Kingdom" |
+| User can get info about a randomly selected metal band | click "Get Random Band" | "Visigoth", "Power Metal", "United States" | 
 
 3. Integration
-  * Initial routes or index pages with all dependencies in Controller/index.html head
-    * build/css/vendor.css
-    * build/css/main.css
-    * build/js/vendor.min.js
-    * build/js/app.js
-  * Display...
-  * Integrate feature that...
-
-4. UX/UI
-  * Include and modify bootstrap/materialize/Sass etc.
-  * Develop custom style
-
-5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
+  * index.html for application entry and navigation and displaying band info.
 
 
 ## Setup/Installation Requirements
 
-
+* Open your console or powershell command line.
+* In your command line, navigate to the desktop or your desired folder destination.
+* Copy the project's github address (https://github.com/drewlinn/special-doodle.git)
+* Write in your console the command "git clone" and paste the project address afterward and press enter.
+* Perform 'npm install' and 'bower install' commands
+* Perform the commands 'gulp build' followed by 'gulp-serve' and the application should open in your default web browser.
 
 ## Known Bugs
 * Country of Origin returns as undefined when a random band is called.
@@ -84,6 +77,6 @@ _Email no one with any questions, comments, or concerns._
 
 ### License
 
-*{This software is licensed under the MIT license}*
+This software is licensed under the MIT license
 
-Copyright (c) 2017 **_{Dylan Dills and Andrew Dalton}_**
+Copyright (c) 2017 **Dylan Dills and Andrew Dalton**
